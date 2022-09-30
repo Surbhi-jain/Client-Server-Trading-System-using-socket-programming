@@ -3,8 +3,8 @@ A automated Trading system for traders where traders can login , Send Buy Requeu
 Request , View Order Status and View Trade Status.
 
 ==================Commands to run the codes==================
-----Client:  [executable code]<Server IP Address><Server Port number> 
-----Server: //<executable code><Server Port number>
+----Client:  client.c [Server IP Address]  [Server Port number] 
+----Server:  server.c [Server Port number]
 
 
 
