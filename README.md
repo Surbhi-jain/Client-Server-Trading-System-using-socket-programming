@@ -4,7 +4,7 @@ Request , View Order Status and View Trade Status.
 
 ==================Commands to run the codes==================
 ----Client:  [executable code]<Server IP Address><Server Port number> 
-----Server: <executable code><Server Port number>
+----Server: //<executable code><Server Port number>
 
 
 
