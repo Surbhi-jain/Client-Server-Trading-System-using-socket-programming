@@ -14,7 +14,7 @@ Client Messages (Requests) -----------------------------------------------------
 Request Types -------------------------------------
 
  1. Login request
-      <Log-IN ID> <PASSWORD> L #$@
+      \<Log-IN ID\> \<PASSWORD\> L #$@
 
  2. Buy request
       <Log-IN Number> <PASSWORD> B <item-code> <qty> <unit-price> #$@
