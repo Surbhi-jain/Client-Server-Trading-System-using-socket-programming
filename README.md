@@ -4,7 +4,8 @@ Request , View Order Status and View Trade Status.
 
 Protocols for message transfer in trading system  ------
 
-Client Messages (Requests) -------------------------------------------------------------------------------------------------------------------
+Client Messages (Requests) 
+-------------------------------------------------------------------------------------------------------------------
 
   - Credentials are sent with every request to verify the identity of trder initiating a trade
   - This is analogous to OTP used in real life transactions
@@ -29,7 +30,8 @@ Request Types -------------------------------------
       \<Log-IN Number\> \<PASSWORD\> VT #$@
 
 
-Server Messages (Responses) -------------------------------------------------------------------------------------------------------------------
+Server Messages (Responses) 
+-------------------------------------------------------------------------------------------------------------------
 
 - First line of the message is status line (ACCEPTED or REJECTED)
     - ACCEPTED : action initiated by client is implemented Successfully by server
