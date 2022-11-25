@@ -17,16 +17,16 @@ Request Types -------------------------------------
       \<Log-IN ID\> \<PASSWORD\> L #$@
 
  2. Buy request
-      <Log-IN Number> <PASSWORD> B <item-code> <qty> <unit-price> #$@
+      \<Log-IN Number\> \<PASSWORD\> B \<item-code\> \<qty\> \<unit-price\> #$@
 
  3. Sell request
-      <Log-IN Number> <PASSWORD> S <item-code> <qty> <unit-price> #$@
+      \<Log-IN Number\> \<PASSWORD\> S \<item-code\> \<qty\> \<unit-price\> #$@
 
  4. View orders
-      <Log-IN Number> <PASSWORD> VO #$@
+      \<Log-IN Number\> \<PASSWORD\> VO #$@
 
  5. View Trades
-      <Log-IN Number> <PASSWORD> VT #$@
+      \<Log-IN Number\> \<PASSWORD\> VT #$@
 
 
 Server Messages (Responses) -------------------------------------------------------------------------------------------------------------------
@@ -38,13 +38,13 @@ Server Messages (Responses) ----------------------------------------------------
 - Second line onwards contain the message intended for the client - It is displayed as is to the client
 
 - Common response format
-    <status line>\n
-    <content>
+    \<status line\>\n
+    \<content\>
 
 - Example response for sign in request:
     ACCEPTED -
     SIGNED IN Successfully
-    Your USER NUMBER IS <1/2/3/4/5>
+    Your USER NUMBER IS \<1/2/3/4/5\>
 
 - Once successful log in is done by a client, he is allocated a user number which acts as an one time password (OTP) for the duration of the current session
 
