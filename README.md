@@ -2,7 +2,7 @@
 A automated Trading system for traders where traders can login , Send Buy Requeust , Send Sell
 Request , View Order Status and View Trade Status.
 
-Protocols for message transfer in trading system  ------
+Protocols for message transfer in trading system
 
 Client Messages (Requests) 
 -------------------------------------------------------------------------------------------------------------------
